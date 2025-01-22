@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContextProvider";
 
-const ThemeToggle = () => {
+export const ThemeToggle = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   /*
   This line uses the useContext hook to access the value of ThemeContext.
@@ -28,8 +28,6 @@ const ThemeToggle = () => {
   The button's text content is "Toggle Theme".
   */
 };
-
-export default ThemeToggle;
 
 /*
 In summary, this file defines and exports a ThemeToggle component that

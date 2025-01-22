@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContextProvider";
 
-const Box = ({ children }: { children: React.ReactNode }) => {
+export const Box = ({ children }: { children: React.ReactNode }) => {
   /*
   This line defines a functional component named Box.
 
@@ -22,7 +22,7 @@ const Box = ({ children }: { children: React.ReactNode }) => {
   */
 };
 
-const NestedBox = () => {
+export const NestedBox = () => {
   const { theme } = useContext(ThemeContext);
   /*
   This line uses the useContext hook to access the value of ThemeContext.
@@ -54,7 +54,6 @@ const NestedBox = () => {
   */
 };
 
-export { Box, NestedBox };
 
 /*
 In summary, this file defines and exports two components: Box and NestedBox.

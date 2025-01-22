@@ -36,8 +36,9 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   allowing any nested components to consume the context.
   */
 };
-export { ThemeContext };
 
+
+export { ThemeContext };
 /*
 This line re-exports the ThemeContext object, making it available
 for import in other parts of the application.

@@ -1,5 +1,5 @@
 import { ThemeProvider } from "./context/ThemeContextProvider";
-import ThemeToggle from "./components/ThemeToggle";
+import { ThemeToggle } from "./components/ThemeToggle";
 import { Box, NestedBox } from "./components/Box";
 import "./App.css";
 
